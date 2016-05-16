@@ -71,7 +71,7 @@
 
                 <a class="navbar-brand" href="#">
 
-                    <img src="logo.jpg" alt="" style="border-radius:10px;">
+                    <img src="<?php bloginfo('template_url'); ?>/img/logo.jpg" alt="" style="border-radius:10px;">
 
                 </a>
 

@@ -51,4 +51,15 @@ figure > img {
   text-align: right;
 }
 
+/* line 47, sass/style.sass */
+.page_article {
+  margin-left: 10px;
+  padding-left: 50px;
+}
+
+/* line 51, sass/style.sass */
+.page_article header {
+  padding-bottom: 10px;
+}
+
 /*# sourceMappingURL=style.css.map */

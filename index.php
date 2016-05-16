@@ -28,7 +28,7 @@
 
             <div class="item active">
 
-              <img src="img/01.jpg" alt="Chania" width="460" height="345">
+              <img src="<?php bloginfo('template_url'); ?>/img/carousel/01.jpg" alt="Chania" width="460" height="345">
 
             </div>
 
@@ -36,7 +36,7 @@
 
             <div class="item">
 
-              <img src="img/02.jpg" alt="Chania" width="460" height="345">
+              <img src="<?php bloginfo('template_url'); ?>/img/carousel/02.jpg" alt="Chania" width="460" height="345">
 
             </div>
 
@@ -44,7 +44,7 @@
 
             <div class="item">
 
-              <img src="img/03.jpg" alt="Flower" width="460" height="345">
+              <img src="<?php bloginfo('template_url'); ?>/img/carousel/03.jpg" alt="Flower" width="460" height="345">
 
             </div>
 
@@ -52,7 +52,7 @@
 
             <div class="item">
 
-              <img src="img/02.jpg" alt="Flower" width="460" height="345">
+              <img src="<?php bloginfo('template_url'); ?>/img/carousel/02.jpg" alt="Flower" width="460" height="345">
 
             </div>
 
@@ -185,6 +185,6 @@
 
       </div>
 
-    </div>
+    
 
 <?php get_footer(); ?>
