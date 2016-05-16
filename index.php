@@ -12,7 +12,7 @@
 
 
 	<?php rewind_posts(); ?>
-	<?php query_posts('order=Desc&cat=3'); ?>
+	<?php //query_posts('order=Desc&cat=1'); ?>
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 		<article>
 			<header>
@@ -22,6 +22,7 @@
 			<?php the_category(); ?>
 			<strong><?php the_author(); ?></strong> -
 			<?php the_date();?>
+			<?php the_post_thumbnail('thumbnail');?>
 		</article>
 	<!-- post -->
 	<?php endwhile; ?>
