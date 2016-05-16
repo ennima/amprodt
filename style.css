@@ -5,36 +5,50 @@
  *Author URI: http://miru-interactive.mx
  *Description: Tema para AMPRODT-NANDA para la plataforma pública de contenidos online.
  *Version: 1.0 */
+/* line 15, sass/style.sass */
 body {
   background-color: #fff;
-  color: #000; }
+  color: #000;
+}
 
+/* line 19, sass/style.sass */
 figure {
-  padding-bottom: 5%; }
+  padding-bottom: 5%;
+}
 
+/* line 22, sass/style.sass */
 figure > img {
-  width: 100%; }
+  width: 100%;
+}
 
+/* line 25, sass/style.sass */
 .post_metadata {
   width: 100%;
   text-align: right;
   padding: 0px;
   margin: 0px;
-  color: #0C485A; }
+  color: #0C485A;
+}
 
+/* line 32, sass/style.sass */
 .post_metadata strong {
   padding: 0px;
   margin: 0px;
-  text-align: left; }
+  text-align: left;
+}
 
+/* line 37, sass/style.sass */
 .post_metadata i {
   padding: 0px;
   margin: 0px;
-  text-align: right; }
+  text-align: right;
+}
 
+/* line 42, sass/style.sass */
 .post_category {
   padding: 0px;
   margin: 0px;
-  text-align: right; }
+  text-align: right;
+}
 
 /*# sourceMappingURL=style.css.map */
