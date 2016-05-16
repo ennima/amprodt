@@ -69,7 +69,7 @@
 
                 </button>
 
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="<?php bloginfo('siteurl') ?>">
 
                     <img src="<?php bloginfo('template_url'); ?>/img/logo.jpg" alt="" style="border-radius:10px;">
 
@@ -95,15 +95,15 @@
 
                       <ul class="dropdown-menu">
 
-                        <li><a href="#">ANTECEDENTES</a></li>
+                        <li><a href="<?php bloginfo('siteurl');?>/proceso-atencion-de-enfermeria/antecedentes/">ANTECEDENTES</a></li>
 
-                        <li><a href="#">OBJETIVO</a></li>
+                        <li><a href="<?php bloginfo('siteurl');?>/proceso-atencion-de-enfermeria/objetivo/">OBJETIVO</a></li>
 
-                        <li><a href="#">M&Eacute;TODO</a></li>
+                        <li><a href="<?php bloginfo('siteurl');?>/metodo">M&Eacute;TODO</a></li>
 
-                        <li><a href="#">RESULTADOS</a></li>
+                        <li><a href="<?php bloginfo('siteurl');?>/resultados">RESULTADOS</a></li>
 
-                        <li><a href="#">CONCLUSI&Oacute;N</a></li>
+                        <li><a href="<?php bloginfo('siteurl');?>/conclusion">CONCLUSI&Oacute;N</a></li>
 
                         <li role="separator" class="divider"></li>
 
@@ -209,15 +209,15 @@
 
             <ul class="dropdown-menu">
 
-              <li><a href="#">ANTECEDENTES</a></li>
+              <li><a href="<?php bloginfo('siteurl');?>/proceso-atencion-de-enfermeria/antecedentes/">ANTECEDENTES</a></li>
 
-              <li><a href="#">OBJETIVO</a></li>
+              <li><a href="<?php bloginfo('siteurl');?>/proceso-atencion-de-enfermeria/objetivo/">OBJETIVO</a></li>
 
-              <li><a href="#">M&Eacute;TODO</a></li>
+              <li><a href="<?php bloginfo('siteurl');?>/metodo">M&Eacute;TODO</a></li>
 
-              <li><a href="#">RESULTADOS</a></li>
+              <li><a href="<?php bloginfo('siteurl');?>/resultados">RESULTADOS</a></li>
 
-              <li><a href="#">CONCLUSI&Oacute;N</a></li>                        
+              <li><a href="<?php bloginfo('siteurl');?>/conclusion">CONCLUSI&Oacute;N</a></li>                        
 
             </ul>
 
