@@ -9,4 +9,32 @@ body {
   background-color: #fff;
   color: #000; }
 
+figure {
+  padding-bottom: 5%; }
+
+figure > img {
+  width: 100%; }
+
+.post_metadata {
+  width: 100%;
+  text-align: right;
+  padding: 0px;
+  margin: 0px;
+  color: #0C485A; }
+
+.post_metadata strong {
+  padding: 0px;
+  margin: 0px;
+  text-align: left; }
+
+.post_metadata i {
+  padding: 0px;
+  margin: 0px;
+  text-align: right; }
+
+.post_category {
+  padding: 0px;
+  margin: 0px;
+  text-align: right; }
+
 /*# sourceMappingURL=style.css.map */
